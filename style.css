@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* * {
+    border: 1px green solid !important;
+} */
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url('./assets/img/bg-unix.png');
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.header__logo__block {
+    width: 155px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+}
+
+.class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo__icon {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bg__icon {
+    top: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.icon__text {
+    top: -5px;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo__name__block {
+    width: 155px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo__name {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.menu__container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.menu__href {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.auth__button {
+    width: 147px;
+    height: 56px;
+    border: 1px solid #EE0BD7;
+    background-image: url('./assets/img/bg-unix.png');
+    text-align: center;
+    cursor: pointer;
+    border-radius: 57px;
+}
+
+.auth__button a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main__first__block {
+    display: flex;
+    flex-direction: column;
+    width: 758px;
+    height: 244px;
+}
+
+.main__first__block h3 {
+    font-size: 100px;
+    line-height: 122px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+
+.main__first__block p {
+    width: 633px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+.main__button {
+    width: 336px;
+    height: 78px;
+    border-radius: 40px;
+    background: linear-gradient(#F20493, #9616C3);
+    color: #FFFFFF;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+.main__photo {
+    width: 100%;
+    height: 100%;
+}
+
+.main__neiroset {
+    width: 100%;
+    height: 100%;
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+}
+
+.container__cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #31519f;
+    border-radius: 40px;
+}
+
+.price__card {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.price__card p {
+    padding: 10px 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    justify-content: center;
+    background: linear-gradient(#F20493, #9616C3);
+    border-radius: 6px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
